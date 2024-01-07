@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 200vh;
+}
+header{
+    height: 4%;
+    width: 100%;
+    background-color: black;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: white;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    display: inline-block;
+}
+.samcom{
+    height: 100%;
+    width: 30%;
+    background-color: #28282B;
+    float: left;
+    font-size: xx-large;
+    color: white;
+    padding-left: 175px;
+    padding-top: 7px;
+}
+.schlog{
+    height: 100%;
+    width: 70%;
+    background-color: #28282B;
+    float: left;
+    font-size: large;
+    padding-right: 50px;
+    padding-top: 15px;
+}
+section{
+    height: 93%;
+    width: 100%;
+    background-color: black;
+    padding-top: 50px;
+    padding-left: 130px;
+}
+.lmanga{
+    height: 96%;
+    width: 90%;
+    background-color: white;
+}
+.info{
+    height: 33%;
+    width: 100%;
+    float: left;
+}
+.jjkpic{
+    height: 100%;
+    width: 30%;
+    float: left;
+}
+img[src="jjk.jpg"]{
+    display: flex;
+    float: left;
+    margin-left: 30px;
+    margin-top: 29px;
+    height: 92%;
+    width: 90%;
+}
+.jjkfo{
+    height: 100%;
+    width: 65%;
+    float: left;
+    margin-left: 28px;
+    margin-top: 30px;
+}
+.jjksub{
+    height: 10%;
+    width: 100%;
+    float: left;
+    padding-top: 5px;
+    font-size: x-large;
+    font-weight: bold;
+    color: #1560bd;
+    display: flex;
+    align-items: start;
+}
+button{
+    background-color: gray;
+    text-align: center;
+    color: white;
+    border: none;
+    height: 25px;
+    width: 100px;
+    margin-left: 15px;    
+}
+button:hover{
+    font-size: 15px;
+    height: 28px;
+    width: 105px;
+    margin-top: 1px;
+}
+.jjkdes{
+    height: 90%;
+    width: 100%;
+    float: left;
+    padding-top: 10px;
+}
+h3{
+    color: #1560bd;
+}
+h4{
+    color: black;
+}
+.chapters{
+    height: 37%;
+    width: 100%;
+    float: left;
+}
+
+.chap{
+    height: 94%;
+    width: 96%;
+    float: left;
+    margin-top: 14px;
+    margin-left: 22px;
+    flex-wrap: wrap;
+}
+.chap1{
+    height: 14%;
+    width: 100%;
+    border: solid;
+    border-color: gray;
+    border-width: thin;
+    color: #2774AE;
+    font-size: x-large;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 12px;
+    border-bottom: none;
+}
+.chap1:hover{
+    color: #6699CC;
+}
+.chap2{
+    height: 14%;
+    width: 100%;
+    border: solid;
+    border-color: gray;
+    border-width: thin;
+    color: #2774AE;
+    font-size: x-large;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 12px;
+    border-bottom: none;
+}
+.chap2:hover{
+    color: #6699CC;
+}
+.chap3{
+    height: 14%;
+    width: 100%;
+    border: solid;
+    border-color: gray;
+    border-width: thin;
+    color: #2774AE;
+    font-size: x-large;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 12px;
+    border-bottom: none;
+}
+.chap3:hover{
+    color: #6699CC;
+}
+.chap4{
+    height: 14%;
+    width: 100%;
+    border: solid;
+    border-color: gray;
+    border-width: thin;
+    color: #2774AE;
+    font-size: x-large;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 12px;
+    border-bottom: none;
+}
+.chap4:hover{
+    color: #6699CC;
+}
+.chap5{
+    height: 14%;
+    width: 100%;
+    border: solid;
+    border-color: gray;
+    border-width: thin;
+    color: #2774AE;
+    font-size: x-large;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 12px;
+    border-bottom: none;
+}
+.chap5:hover{
+    color: #6699CC;
+}
+.more{
+    height: 16%;
+    width: 100%;
+    border: solid;
+    border-color: gray;
+    border-width: thin;
+    border-bottom: none;
+}
+p{
+    color: #355E3B;
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+p:hover{
+    color: green;
+}
+.chap0{
+    height: 14%;
+    width: 100%;
+    border: solid;
+    border-color: gray;
+    border-width: thin;
+    color: #2774AE;
+    font-size: x-large;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 12px;
+}
+.chap0:hover{
+    color: #6699CC;
+}
+.comments{
+    height: 30%;
+    width: 100%;
+    float: left;
+}
+b{
+    font-size: large;
+}
+pre{
+    margin-top: 8px;
+}
+.comn{
+    height: 96%;
+    width: 96%;
+    float: left;
+    margin-top: 0px;
+    margin-left: 22px;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+.mycomn{
+    height: 25%;
+    width: 100%;
+    border: solid;
+    border-color: gray;
+    border-width: thin;
+    border-bottom: none;
+    margin-top: 10px;
+}
+input[type=text]{
+    height: 60%;
+    width: 90%;
+    float: left;
+    margin-top: 16px;
+    margin-left: 8px;
+}
+input[type=submit]{
+    height: 38%;
+    width: 7%;
+    float: left;
+    background-color: #1560bd;
+    margin-top: 22px;
+    margin-left: 8px;
+    border: none;
+    color: white;
+}
+.comn1{
+    height: 22%;
+    width: 100%;
+    border: solid;
+    border-color: gray;
+    border-width: thin;
+    border-bottom: none;
+}
+.comn2{
+    height: 22%;
+    width: 100%;
+    border: solid;
+    border-color: gray;
+    border-width: thin;
+    border-bottom: none;
+}
+.morec{
+    height: 16%;
+    width: 100%;
+    border: solid;
+    border-color: gray;
+    border-width: thin;
+}
+p:hover{
+    color: green;
+}
+footer{
+    height: 3%;
+    width: 100%;
+    background-color: #28282B;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}

@@ -1,0 +1,2995 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 200vh;
+}
+header{
+    height: 14%;
+    width: 100%;
+    background-color: #28282B;
+    position: fixed;
+    z-index: 5;
+}
+.lisr{
+    height: 100%;
+    width: 35%;
+    float: left;
+}
+.lisr a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    height: 100%;
+    width: 33%;
+    float: left;
+}
+img[src="samurai.png"]{
+    display: block;
+    margin: auto;
+    height: 88%;
+    width: 55%;
+    border-radius: 50px;
+    margin-right: 10px;
+    margin-top: 5px;   
+}
+.titre{
+    height: 100%;
+    width: 67%;
+    float: left;
+    color: white;
+    font-size: xx-large;
+    margin-top: 8px;
+}
+.limn{
+    height: 100%;
+    width: 65%;
+    float: left;
+    display: inline-flex;
+    justify-content: space-around;
+}
+.limn a{
+    margin-top: 50px;
+    color: white;
+    font-size: x-large;
+    margin: auto;
+    text-decoration: none;
+}
+section{
+    height: 97%;
+    width: 100%;
+    background-color: gray;
+}
+.upper{
+    height: 30%;
+    width: 100%;
+}
+.admin{
+    height: 100%;
+    width: 55%;
+    float: left;
+}
+.adrec{
+    margin: auto;
+    margin-top: 120px;
+    height: 55%;
+    width: 85%;
+    border: solid;
+    border-color: #AA0000;
+}
+.rec{
+    height: 15%;
+    width: 100%;
+    float: left;
+    background-color: #AA0000;
+    font-size: x-large;
+    color: white;
+    padding-left: 5px;
+}
+.sugg{
+    height: 85%;
+    width: 100%;
+    float: left;
+    background-color: white;
+}
+.paradise{
+    height: 100%;
+    width: 30%;
+    float: left;
+}
+img[src="paradise.jpg"]{
+    height: 88%;
+    width: 88%;
+    float: left;
+    margin-left: 7px;
+    margin-top: 10px;
+}
+.summary{
+    height: 100%;
+    width: 70%;
+    float: left;
+    padding-top: 1.5px;
+}
+.summary a{
+    text-decoration: none;
+}
+.pic{
+    height: 100%;
+    width: 45%;
+    float: left;
+}
+.cherry{
+    height: 55%;
+    width: 90%;
+    margin-top: 120px;
+    float: left;
+}
+img[src="cherry.jpg"]{
+    height: 100%;
+    width: 100%;
+    float: left;
+}
+.middle{
+    height: 40%;
+    width: 100%;  
+    float: left;
+}
+.hot{
+    height: 90%;
+    width: 92%;  
+    background-color: white;
+    border: solid;
+    border-color: #AA0000;
+    margin: auto;
+}
+.pop{
+    height: 9%;
+    width: 100%;
+    background-color: #AA0000;
+    font-size: xx-large;
+    color: white;
+    padding-left: 15px;  
+}
+.mangas{
+    height: 91%;
+    width: 100%;
+    display: inline-block;
+    justify-content: space-around;
+}
+.sakamoto{
+    position: relative;
+    height: 50%;
+    width: 25%;
+    float: left;
+}
+.imsakamoto{
+    display: block;
+    margin: auto;
+    height: 92%;
+    width: 60%;
+    z-index: 1;
+    margin-top: 7px;
+}
+img[src="sakamoto.jpg"]{
+    height: 100%;
+    width: 100%;
+}
+.sakamoto:hover img{
+    transform: scale(1.02);
+}
+.blsakamoto{
+    display: block;
+    margin: auto;
+    background-color: #28282B;
+    height: 17%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: large;
+    z-index: 3;
+    opacity: 0.8;
+    padding-top: 5px;
+    margin-top: -32px;
+}
+.blsakamoto a{
+    color: white;
+    text-decoration: none;
+}
+.blsakamoto:hover{
+    font-size: 20px;
+    padding-top: 3.5px;
+}
+.jjk{
+    position: relative;
+    height: 50%;
+    width: 25%;
+    float: left;
+}
+.imjjk{
+    display: block;
+    margin: auto;
+    height: 92%;
+    width: 60%;
+    z-index: 1;
+    margin-top: 7px;
+}
+img[src="jjk.jpg"]{
+    height: 100%;
+    width: 100%;
+}
+.jjk:hover img{
+    transform: scale(1.02);
+}
+.bljjk{
+    display: block;
+    margin: auto;
+    background-color: #28282B;
+    height: 17%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: large;
+    z-index: 3;
+    opacity: 0.8;
+    padding-top: 5px;
+    margin-top: -32px;
+}
+.bljjk a{
+    color: white;
+    text-decoration: none;
+}
+.bljjk:hover{
+    font-size: 20px;
+    padding-top: 3.5px;
+}
+.haikyuu{
+    position: relative;
+    height: 50%;
+    width: 25%;
+    float: left;
+}
+.imhaikyuu{
+    display: block;
+    margin: auto;
+    height: 92%;
+    width: 60%;
+    z-index: 1;
+    margin-top: 7px;
+}
+img[src="haikyuu.jpg"]{
+    height: 100%;
+    width: 100%;
+}
+.haikyuu:hover img{
+    transform: scale(1.02);
+}
+.blhaikyuu{
+    display: block;
+    margin: auto;
+    background-color: #28282B;
+    height: 17%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: large;
+    z-index: 3;
+    opacity: 0.8;
+    padding-top: 5px;
+    margin-top: -32px;
+}
+.blhaikyuu a{
+    color: white;
+    text-decoration: none;
+}
+.blhaikyuu:hover{
+    font-size: 20px;
+    padding-top: 3.5px;
+}
+.slamdunk{
+    position: relative;
+    height: 50%;
+    width: 25%;
+    float: left;
+}
+.imslamdunk{
+    display: block;
+    margin: auto;
+    height: 92%;
+    width: 60%;
+    z-index: 1;
+    margin-top: 7px;
+}
+img[src="slamdunk.jpg"]{
+    height: 100%;
+    width: 100%;
+}
+.slamdunk:hover img{
+    transform: scale(1.02);
+}
+.blslamdunk{
+    display: block;
+    margin: auto;
+    background-color: #28282B;
+    height: 17%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: large;
+    z-index: 3;
+    opacity: 0.8;
+    padding-top: 5px;
+    margin-top: -32px;
+}
+.blslamdunk a{
+    color: white;
+    text-decoration: none;
+}
+.blslamdunk:hover{
+    font-size: 20px;
+    padding-top: 3.5px;
+}
+.ajin{
+    position: relative;
+    height: 50%;
+    width: 25%;
+    float: left;
+}
+.imajin{
+    display: block;
+    margin: auto;
+    height: 92%;
+    width: 60%;
+    z-index: 1;
+    margin-top: 7px;
+}
+img[src="ajin.jpg"]{
+    height: 100%;
+    width: 100%;
+}
+.ajin:hover img{
+    transform: scale(1.02);
+}
+.blajin{
+    display: block;
+    margin: auto;
+    background-color: #28282B;
+    height: 17%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: large;
+    z-index: 3;
+    opacity: 0.8;
+    padding-top: 5px;
+    margin-top: -32px;
+}
+.blajin a{
+    color: white;
+    text-decoration: none;
+}
+.blajin:hover{
+    font-size: 20px;
+    padding-top: 3.5px;
+}
+.mashle{
+    position: relative;
+    height: 50%;
+    width: 25%;
+    float: left;
+}
+.immashle{
+    display: block;
+    margin: auto;
+    height: 92%;
+    width: 60%;
+    z-index: 1;
+    margin-top: 7px;
+}
+img[src="mashle.jpg"]{
+    height: 100%;
+    width: 100%;
+}
+.mashle:hover img{
+    transform: scale(1.02);
+}
+.blmashle{
+    display: block;
+    margin: auto;
+    background-color: #28282B;
+    height: 17%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: large;
+    z-index: 3;
+    opacity: 0.8;
+    padding-top: 5px;
+    margin-top: -32px;
+}
+.blmashle a{
+    color: white;
+    text-decoration: none;
+}
+.blmashle:hover{
+    font-size: 20px;
+    padding-top: 3.5px;
+}
+.fable{
+    position: relative;
+    height: 50%;
+    width: 25%;
+    float: left;
+}
+.imfable{
+    display: block;
+    margin: auto;
+    height: 92%;
+    width: 60%;
+    z-index: 1;
+    margin-top: 7px;
+}
+img[src="fable.jpg"]{
+    height: 100%;
+    width: 100%;
+}
+.fable:hover img{
+    transform: scale(1.02);
+}
+.blfable{
+    display: block;
+    margin: auto;
+    background-color: #28282B;
+    height: 17%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: large;
+    z-index: 3;
+    opacity: 0.8;
+    padding-top: 5px;
+    margin-top: -32px;
+}
+.blfable a{
+    color: white;
+    text-decoration: none;
+}
+.blfable:hover{
+    font-size: 20px;
+    padding-top: 3.5px;
+}
+.seemore{
+    height: 50%;
+    width: 25%;
+    float: left;
+    font-size: x-large;
+    padding-top: 75px;
+    padding-left: 50px;
+}
+.seemore a{
+    color: green;
+    text-decoration: none;
+}
+.barre{
+    height: 20%;
+    width: 75%;
+    border: solid;
+    border-color: #AA0000;
+    background-color: white;
+    margin: auto;
+    margin-top: 15px;
+}
+.quote{
+    height: 42%;
+    width: 100%;
+    background-color: #AA0000;
+    padding-left: 12px;
+    font-size: xx-large;
+    color: white;
+}
+.erwin{
+    height: 58%;
+    width: 100%;
+    padding-top: 12px;
+    font-size: large;
+}
+p{
+    text-align: center;
+}
+.end{
+    height: 62%;
+    width: 100%;  
+    float: left;
+}
+.aboutus{
+    height: 90%;
+    width: 50%;  
+    background-color: white;
+    border: solid;
+    border-color: #AA0000;
+    margin: auto;
+    margin-top: 15px;
+}
+.about{
+    height: 13%;
+    width: 100%;
+    background-color: #AA0000;
+    font-size: xx-large;
+    color: white;
+    padding-left: 15px; 
+}
+.us{
+    height: 87%;
+    width: 100%;
+    padding-top: 24px; 
+}
+img[src="japan.jpg"]{
+    display: block;
+    height: 85%;
+    width: 70%; 
+    margin: auto;
+}
+footer{
+    height: 3%;
+    width: 100%;
+    background-color: #28282B;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+@media screen and (min-width: 1100px) and (max-width: 1150px){
+.logo{
+    height: 100%;
+    width: 33%;
+    float: left;
+}
+img[src="samurai.png"]{
+    display: block;
+    margin: auto;
+    height: 80%;
+    width: 57%;
+    border-radius: 50px;
+    margin-right: 10px;
+    margin-top: 10px;   
+}
+.titre{
+    height: 100%;
+    width: 67%;
+    float: left;
+    color: white;
+    font-size: 28px;
+}
+}
+@media screen and (min-width: 1000px) and (max-width: 1099px){
+.logo{
+    height: 100%;
+    width: 33%;
+    float: left;
+}
+img[src="samurai.png"]{
+    display: block;
+    margin: auto;
+    height: 80%;
+    width: 57%;
+    border-radius: 50px;
+    margin-right: 10px;
+    margin-top: 10px;   
+}
+.titre{
+    height: 100%;
+    width: 67%;
+    float: left;
+    color: white;
+    font-size: 28px;
+}
+h5{
+    margin-top: -5px;
+}
+}
+@media screen and (min-width: 990px) and (max-width: 999px){
+.logo{
+    height: 100%;
+    width: 30%;
+    float: left;
+}
+  img[src="samurai.png"]{
+    display: block;
+    margin: auto;
+    height: 76%;
+    width: 72%;
+    border-radius: 50px;
+    margin-right: 10px;
+    margin-top: 10px;   
+}
+.titre{
+    height: 100%;
+    width: 65%;
+    float: left;
+    color: white;
+    font-size: 28px;
+    margin-top: 12px;
+}
+h5{
+    margin-top: -5px;
+}
+}
+@media screen and (min-width: 970px) and (max-width: 989px){
+.logo{
+    height: 100%;
+    width: 28%;
+    float: left;
+}
+  img[src="samurai.png"]{
+    display: block;
+    margin: auto;
+    height: 74%;
+    width: 75%;
+    border-radius: 50px;
+    margin-right: 10px;
+    margin-top: 10px;   
+}
+.titre{
+    height: 100%;
+    width: 64%;
+    float: left;
+    color: white;
+    font-size: 28px;
+    margin-top: 12px;
+}
+h5{
+    margin-top: -5px;
+}
+.seemore{
+    height: 50%;
+    width: 25%;
+    float: left;
+    font-size: x-large;
+    padding-top: 75px;
+    padding-left: 30px;
+}
+.seemore a{
+    color: green;
+    text-decoration: none;
+}
+}
+@media screen and (min-width: 868px) and (max-width: 969px){
+.lisr{
+    height: 100%;
+    width: 35%;
+    float: left;
+}
+.logo{
+    display: none;
+    height: 100%;
+    width: 33%;
+    float: left;
+}
+img[src="samurai.png"]{
+    display: none;
+    margin: auto;
+    height: 88%;
+    width: 55%;
+    border-radius: 50px;
+    margin-right: 10px;
+    margin-top: 5px;   
+}
+.titre{
+    margin-left: 50px;
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-size: 25px;
+    margin-top: 14px;
+}
+
+h5{
+    margin-top: -5px;
+}
+.seemore{
+    height: 50%;
+    width: 25%;
+    float: left;
+    font-size: x-large;
+    padding-top: 75px;
+    padding-left: 15px;
+}
+.seemore a{
+    color: green;
+    text-decoration: none;
+}
+}
+@media screen and (min-width: 784px) and (max-width: 867px){
+.lisr{
+    height: 100%;
+    width: 35%;
+    float: left;
+}
+.logo{
+    display: none;
+    height: 100%;
+    width: 33%;
+    float: left;
+}
+img[src="samurai.png"]{
+    display: none;
+    margin: auto;
+    height: 88%;
+    width: 55%;
+    border-radius: 50px;
+    margin-right: 10px;
+    margin-top: 5px;   
+}
+.titre{
+    margin-left: 50px;
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-size: 25px;
+    margin-top: 14px;
+}
+h5{
+    margin-top: -10px;
+}
+h4{
+    margin-top: -17.5px;
+}
+.seemore{
+    height: 50%;
+    width: 25%;
+    float: left;
+    font-size: x-large;
+    padding-top: 75px;
+    padding-left: 18px;
+}
+.seemore a{
+    color: green;
+    text-decoration: none;
+}
+.bljjk{
+    display: block;
+    margin: auto;
+    background-color: #28282B;
+    height: 17%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    z-index: 3;
+    opacity: 0.8;
+    padding-top: 5px;
+    margin-top: -32px;
+}
+.blsakamoto{
+    display: block;
+    margin: auto;
+    background-color: #28282B;
+    height: 17%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    z-index: 3;
+    opacity: 0.8;
+    padding-top: 5px;
+    margin-top: -32px;
+}
+.blhaikyuu{
+    display: block;
+    margin: auto;
+    background-color: #28282B;
+    height: 17%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    z-index: 3;
+    opacity: 0.8;
+    padding-top: 5px;
+    margin-top: -32px;
+}
+.blslamdunk{
+    display: block;
+    margin: auto;
+    background-color: #28282B;
+    height: 17%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    z-index: 3;
+    opacity: 0.8;
+    padding-top: 5px;
+    margin-top: -32px;
+}
+.blajin{
+    display: block;
+    margin: auto;
+    background-color: #28282B;
+    height: 17%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    z-index: 3;
+    opacity: 0.8;
+    padding-top: 5px;
+    margin-top: -32px;
+}
+.blmashle{
+    display: block;
+    margin: auto;
+    background-color: #28282B;
+    height: 17%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    z-index: 3;
+    opacity: 0.8;
+    padding-top: 5px;
+    margin-top: -32px;
+}
+.blfable{
+    display: block;
+    margin: auto;
+    background-color: #28282B;
+    height: 17%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    z-index: 3;
+    opacity: 0.8;
+    padding-top: 5px;
+    margin-top: -32px;
+}
+.end{
+    height: 62%;
+    width: 100%;  
+    float: left;
+}
+.aboutus{
+    height: 90%;
+    width: 50%;  
+    background-color: white;
+    border: solid;
+    border-color: #AA0000;
+    margin: auto;
+    margin-top: 15px;
+}
+.about{
+    height: 13%;
+    width: 100%;
+    background-color: #AA0000;
+    font-size: xx-large;
+    color: white;
+    padding-left: 15px; 
+}
+.us{
+    height: 87%;
+    width: 100%; 
+}
+img[src="japan.jpg"]{
+    display: block;
+    height: 85%;
+    width: 70%; 
+    margin: auto;
+}
+}
+@media screen and (min-width: 747px) and (max-width: 783px){
+body{
+    height: 250vh;
+}
+header{
+    height: 14%;
+    width: 100%;
+    background-color: #28282B;
+    position: fixed;
+    z-index: 5;
+}
+.lisr{
+    height: 100%;
+    width: 35%;
+    float: left;
+}
+.logo{
+    display: none;
+    height: 100%;
+    width: 33%;
+    float: left;
+}
+img[src="samurai.png"]{
+    display: none;
+    margin: auto;
+    height: 88%;
+    width: 55%;
+    border-radius: 50px;
+    margin-right: 10px;
+    margin-top: 5px;   
+}
+.titre{
+    margin-left: 50px;
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-size: 25px;
+    margin-top: 14px;
+}
+.upper{
+    height: 35%;
+    width: 100%;
+}
+.admin{
+    height: 55%;
+    width: 100%;
+    float: left;
+}
+.adrec{
+    margin: auto;
+    margin-top: 100px;
+    height: 65%;
+    width: 90%;
+    border: solid;
+    border-color: #AA0000;
+}
+.rec{
+    height: 15%;
+    width: 100%;
+    float: left;
+    background-color: #AA0000;
+    font-size: x-large;
+    color: white;
+    padding-left: 5px;
+}
+.sugg{
+    height: 85%;
+    width: 100%;
+    float: left;
+    background-color: white;
+}
+.paradise{
+    height: 100%;
+    width: 30%;
+    float: left;
+}
+img[src="paradise.jpg"]{
+    height: 87%;
+    width: 75%;
+    float: left;
+    margin-left: 7px;
+    margin-top: 10px;
+}
+.summary{
+    height: 100%;
+    width: 70%;
+    float: left;
+}
+h5{
+    margin-top: -8px;
+}
+h4{
+    margin-top: -10px;
+}
+.summary a{
+    text-decoration: none;
+}
+.pic{
+    height: 45%;
+    width: 100%;
+    float: left;
+}
+.cherry{
+    display: block;
+    height: 85%;
+    width: 90%;
+    margin: auto;
+    margin-left: 5%;
+    margin-top: 12px;
+}
+h2{
+    margin-top: 8px;
+}
+h5{
+    margin-right: 8px;
+}
+img[src="cherry.jpg"]{
+    height: 100%;
+    width: 100%;
+}
+.middle{
+    height: 55%;
+    width: 100%;  
+    float: left;
+}
+.hot{
+    height: 60%;
+    width: 90%;  
+    background-color: white;
+    border: solid;
+    border-color: #AA0000;
+    margin: auto;
+}
+.pop{
+    height: 9%;
+    width: 100%;
+    background-color: #AA0000;
+    font-size: xx-large;
+    color: white;
+    padding-left: 15px;  
+}
+.mangas{
+    height: 91%;
+    width: 100%;
+    display: inline-block;
+    justify-content: space-around;
+}
+.sakamoto{
+    position: relative;
+    height: 50%;
+    width: 25%;
+    float: left;
+}
+.imsakamoto{
+    display: block;
+    margin: auto;
+    height: 85%;
+    width: 65%;
+    z-index: 1;
+    margin-top: 10px;
+}
+img[src="sakamoto.jpg"]{
+    height: 100%;
+    width: 100%;
+}
+.sakamoto:hover img{
+    transform: scale(1.02);
+}
+.blsakamoto{
+    display: block;
+    margin: auto;
+    background-color: #28282B;
+    height: 17%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    z-index: 3;
+    opacity: 0.8;
+    padding-top: 5px;
+    margin-top: -32px;
+}
+.blsakamoto a{
+    color: white;
+    text-decoration: none;
+}
+.blsakamoto:hover{
+    font-size: 20px;
+    padding-top: 3.5px;
+}
+.jjk{
+    position: relative;
+    height: 50%;
+    width: 25%;
+    float: left;
+}
+.imjjk{
+    display: block;
+    margin: auto;
+    height: 85%;
+    width: 65%;
+    z-index: 1;
+    margin-top: 10px;
+}
+img[src="jjk.jpg"]{
+    height: 100%;
+    width: 100%;
+}
+.jjk:hover img{
+    transform: scale(1.02);
+}
+.bljjk{
+    display: block;
+    margin: auto;
+    background-color: #28282B;
+    height: 17%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    z-index: 3;
+    opacity: 0.8;
+    padding-top: 5px;
+    margin-top: -32px;
+}
+.bljjk a{
+    color: white;
+    text-decoration: none;
+}
+.bljjk:hover{
+    font-size: 20px;
+    padding-top: 3.5px;
+}
+.haikyuu{
+    position: relative;
+    height: 50%;
+    width: 25%;
+    float: left;
+}
+.imhaikyuu{
+    display: block;
+    margin: auto;
+    height: 85%;
+    width: 65%;
+    z-index: 1;
+    margin-top: 10px;
+}
+img[src="haikyuu.jpg"]{
+    height: 100%;
+    width: 100%;
+}
+.haikyuu:hover img{
+    transform: scale(1.02);
+}
+.blhaikyuu{
+    display: block;
+    margin: auto;
+    background-color: #28282B;
+    height: 17%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    z-index: 3;
+    opacity: 0.8;
+    padding-top: 5px;
+    margin-top: -32px;
+}
+.blhaikyuu a{
+    color: white;
+    text-decoration: none;
+}
+.blhaikyuu:hover{
+    font-size: 20px;
+    padding-top: 3.5px;
+}
+.slamdunk{
+    position: relative;
+    height: 50%;
+    width: 25%;
+    float: left;
+}
+.imslamdunk{
+    display: block;
+    margin: auto;
+    height: 85%;
+    width: 65%;
+    z-index: 1;
+    margin-top: 10px;
+}
+img[src="slamdunk.jpg"]{
+    height: 100%;
+    width: 100%;
+}
+.slamdunk:hover img{
+    transform: scale(1.02);
+}
+.blslamdunk{
+    display: block;
+    margin: auto;
+    background-color: #28282B;
+    height: 17%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    z-index: 3;
+    opacity: 0.8;
+    padding-top: 5px;
+    margin-top: -32px;
+}
+.blslamdunk a{
+    color: white;
+    text-decoration: none;
+}
+.blslamdunk:hover{
+    font-size: 20px;
+    padding-top: 3.5px;
+}
+.ajin{
+    position: relative;
+    height: 50%;
+    width: 25%;
+    float: left;
+}
+.imajin{
+    display: block;
+    margin: auto;
+    height: 85%;
+    width: 65%;
+    z-index: 1;
+    margin-top: 17px;
+}
+img[src="ajin.jpg"]{
+    height: 100%;
+    width: 100%;
+}
+.ajin:hover img{
+    transform: scale(1.02);
+}
+.blajin{
+    display: block;
+    margin: auto;
+    background-color: #28282B;
+    height: 17%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    z-index: 3;
+    opacity: 0.8;
+    padding-top: 5px;
+    margin-top: -32px;
+}
+.blajin a{
+    color: white;
+    text-decoration: none;
+}
+.blajin:hover{
+    font-size: 20px;
+    padding-top: 3.5px;
+}
+.mashle{
+    position: relative;
+    height: 50%;
+    width: 25%;
+    float: left;
+}
+.immashle{
+    display: block;
+    margin: auto;
+    height: 85%;
+    width: 65%;
+    z-index: 1;
+    margin-top: 17px;
+}
+img[src="mashle.jpg"]{
+    height: 100%;
+    width: 100%;
+}
+.mashle:hover img{
+    transform: scale(1.02);
+}
+.blmashle{
+    display: block;
+    margin: auto;
+    background-color: #28282B;
+    height: 17%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    z-index: 3;
+    opacity: 0.8;
+    padding-top: 5px;
+    margin-top: -32px;
+}
+.blmashle a{
+    color: white;
+    text-decoration: none;
+}
+.blmashle:hover{
+    font-size: 20px;
+    padding-top: 3.5px;
+}
+.fable{
+    position: relative;
+    height: 50%;
+    width: 25%;
+    float: left;
+}
+.imfable{
+    display: block;
+    margin: auto;
+    height: 85%;
+    width: 65%;
+    z-index: 1;
+    margin-top: 17px;
+}
+img[src="fable.jpg"]{
+    height: 100%;
+    width: 100%;
+}
+.fable:hover img{
+    transform: scale(1.02);
+}
+.blfable{
+    display: block;
+    margin: auto;
+    background-color: #28282B;
+    height: 17%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    z-index: 3;
+    opacity: 0.8;
+    padding-top: 5px;
+    margin-top: -32px;
+}
+.blfable a{
+    color: white;
+    text-decoration: none;
+}
+.blfable:hover{
+    font-size: 20px;
+    padding-top: 3.5px;
+}
+.seemore{
+    position: relative;
+    height: 50%;
+    width: 25%;
+    float: left;
+    font-size: 19px;
+    padding-top: 75px;
+    padding-left: 5px;
+}
+.seemore a{
+    color: green;
+    text-decoration: none;
+    margin-left: 25px;
+}
+.barre{
+    height: 15%;
+    width: 75%;
+    border: solid;
+    border-color: #AA0000;
+    background-color: white;
+    margin: auto;
+    margin-top: 15px;
+}
+.quote{
+    height: 40%;
+    width: 100%;
+    background-color: #AA0000;
+    padding-left: 12px;
+    font-size: xx-large;
+    color: white;
+}
+.erwin{
+    height: 60%;
+    width: 100%;
+    padding-top: 18px;
+    font-size: large;
+}
+p{
+    text-align: center;
+}
+.end{
+    height: 35%;
+    width: 100%;  
+    float: left;
+}
+.aboutus{
+    height: 100%;
+    width: 50%;  
+    background-color: white;
+    border: solid;
+    border-color: #AA0000;
+    margin: auto;
+    margin-top: 30px;
+}
+.about{
+    height: 15%;
+    width: 100%;
+    background-color: #AA0000;
+    font-size: xx-large;
+    color: white;
+    padding-left: 15px; 
+}
+.us{
+    height: 85%;
+    width: 100%;
+    padding-top: 24px; 
+}
+img[src="japan.jpg"]{
+    display: block;
+    height: 85%;
+    width: 70%; 
+    margin: auto;
+}
+footer{
+    height: 3%;
+    width: 100%;
+    background-color: #28282B;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+}
+@media screen and (min-width: 630px) and (max-width: 746px){
+body{
+    height: 250vh;
+}
+header{
+    height: 14%;
+    width: 100%;
+    background-color: #28282B;
+    position: fixed;
+    z-index: 5;
+}
+.lisr{
+    height: 100%;
+    width: 35%;
+    float: left;
+}
+.logo{
+    display: none;
+    height: 100%;
+    width: 33%;
+    float: left;
+}
+img[src="samurai.png"]{
+    display: none;
+    margin: auto;
+    height: 88%;
+    width: 55%;
+    border-radius: 50px;
+    margin-right: 10px;
+    margin-top: 5px;   
+}
+.titre{
+    margin-left: 50px;
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-size: 25px;
+    margin-top: 14px;
+}
+.upper{
+    height: 35%;
+    width: 100%;
+}
+.admin{
+    height: 55%;
+    width: 100%;
+    float: left;
+}
+.adrec{
+    margin: auto;
+    margin-top: 100px;
+    height: 65%;
+    width: 90%;
+    border: solid;
+    border-color: #AA0000;
+}
+.rec{
+    height: 15%;
+    width: 100%;
+    float: left;
+    background-color: #AA0000;
+    font-size: x-large;
+    color: white;
+    padding-left: 5px;
+}
+.sugg{
+    height: 85%;
+    width: 100%;
+    float: left;
+    background-color: white;
+}
+.paradise{
+    height: 100%;
+    width: 30%;
+    float: left;
+}
+img[src="paradise.jpg"]{
+    height: 87%;
+    width: 75%;
+    float: left;
+    margin-left: 7px;
+    margin-top: 10px;
+}
+.summary{
+    height: 100%;
+    width: 70%;
+    float: left;
+}
+h5{
+    margin-top: -8px;
+}
+h4{
+    margin-top: -10px;
+}
+.summary a{
+    text-decoration: none;
+}
+.pic{
+    height: 45%;
+    width: 100%;
+    float: left;
+}
+.cherry{
+    display: block;
+    height: 85%;
+    width: 90%;
+    margin: auto;
+    margin-left: 5%;
+    margin-top: 12px;
+}
+h2{
+    margin-top: 8px;
+}
+h5{
+    margin-right: 8px;
+}
+img[src="cherry.jpg"]{
+    height: 100%;
+    width: 100%;
+}
+.middle{
+    height: 55%;
+    width: 100%;  
+    float: left;
+}
+.hot{
+    height: 60%;
+    width: 90%;  
+    background-color: white;
+    border: solid;
+    border-color: #AA0000;
+    margin: auto;
+}
+.pop{
+    height: 9%;
+    width: 100%;
+    background-color: #AA0000;
+    font-size: xx-large;
+    color: white;
+    padding-left: 15px;  
+}
+.mangas{
+    height: 91%;
+    width: 100%;
+    display: inline-block;
+    justify-content: space-around;
+}
+.sakamoto{
+    position: relative;
+    height: 50%;
+    width: 25%;
+    float: left;
+}
+.imsakamoto{
+    display: block;
+    margin: auto;
+    height: 85%;
+    width: 72%;
+    z-index: 1;
+    margin-top: 10px;
+}
+img[src="sakamoto.jpg"]{
+    height: 100%;
+    width: 100%;
+}
+.sakamoto:hover img{
+    transform: scale(1.02);
+}
+.blsakamoto{
+    display: block;
+    margin: auto;
+    background-color: #28282B;
+    height: 17%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    z-index: 3;
+    opacity: 0.8;
+    padding-top: 7px;
+    margin-top: -32px;
+}
+.blsakamoto a{
+    color: white;
+    text-decoration: none;
+}
+.blsakamoto:hover{
+    font-size: 15px;
+    padding-top: 5px;
+}
+.jjk{
+    position: relative;
+    height: 50%;
+    width: 25%;
+    float: left;
+}
+.imjjk{
+    display: block;
+    margin: auto;
+    height: 85%;
+    width: 72%;
+    z-index: 1;
+    margin-top: 10px;
+}
+img[src="jjk.jpg"]{
+    height: 100%;
+    width: 100%;
+}
+.jjk:hover img{
+    transform: scale(1.02);
+}
+.bljjk{
+    display: block;
+    margin: auto;
+    background-color: #28282B;
+    height: 17%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    z-index: 3;
+    opacity: 0.8;
+    padding-top: 7px;
+    margin-top: -32px;
+}
+.bljjk a{
+    color: white;
+    text-decoration: none;
+}
+.bljjk:hover{
+    font-size: 15px;
+    padding-top: 5px;
+}
+.haikyuu{
+    position: relative;
+    height: 50%;
+    width: 25%;
+    float: left;
+}
+.imhaikyuu{
+    display: block;
+    margin: auto;
+    height: 85%;
+    width: 72%;
+    z-index: 1;
+    margin-top: 10px;
+}
+img[src="haikyuu.jpg"]{
+    height: 100%;
+    width: 100%;
+}
+.haikyuu:hover img{
+    transform: scale(1.02);
+}
+.blhaikyuu{
+    display: block;
+    margin: auto;
+    background-color: #28282B;
+    height: 17%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    z-index: 3;
+    opacity: 0.8;
+    padding-top: 7px;
+    margin-top: -32px;
+}
+.blhaikyuu a{
+    color: white;
+    text-decoration: none;
+}
+.blhaikyuu:hover{
+    font-size: 15px;
+    padding-top: 5px;
+}
+.slamdunk{
+    position: relative;
+    height: 50%;
+    width: 25%;
+    float: left;
+}
+.imslamdunk{
+    display: block;
+    margin: auto;
+    height: 85%;
+    width: 72%;
+    z-index: 1;
+    margin-top: 10px;
+}
+img[src="slamdunk.jpg"]{
+    height: 100%;
+    width: 100%;
+}
+.slamdunk:hover img{
+    transform: scale(1.02);
+}
+.blslamdunk{
+    display: block;
+    margin: auto;
+    background-color: #28282B;
+    height: 17%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    z-index: 3;
+    opacity: 0.8;
+    padding-top: 7px;
+    margin-top: -32px;
+}
+.blslamdunk a{
+    color: white;
+    text-decoration: none;
+}
+.blslamdunk:hover{
+    font-size: 15px;
+    padding-top: 5px;
+}
+.ajin{
+    position: relative;
+    height: 50%;
+    width: 25%;
+    float: left;
+}
+.imajin{
+    display: block;
+    margin: auto;
+    height: 85%;
+    width: 72%;
+    z-index: 1;
+    margin-top: 17px;
+}
+img[src="ajin.jpg"]{
+    height: 100%;
+    width: 100%;
+}
+.ajin:hover img{
+    transform: scale(1.02);
+}
+.blajin{
+    display: block;
+    margin: auto;
+    background-color: #28282B;
+    height: 17%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    z-index: 3;
+    opacity: 0.8;
+    padding-top: 7px;
+    margin-top: -32px;
+}
+.blajin a{
+    color: white;
+    text-decoration: none;
+}
+.blajin:hover{
+    font-size: 15px;
+    padding-top: 5px;
+}
+.mashle{
+    position: relative;
+    height: 50%;
+    width: 25%;
+    float: left;
+}
+.immashle{
+    display: block;
+    margin: auto;
+    height: 85%;
+    width: 72%;
+    z-index: 1;
+    margin-top: 17px;
+}
+img[src="mashle.jpg"]{
+    height: 100%;
+    width: 100%;
+}
+.mashle:hover img{
+    transform: scale(1.02);
+}
+.blmashle{
+    display: block;
+    margin: auto;
+    background-color: #28282B;
+    height: 17%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    z-index: 3;
+    opacity: 0.8;
+    padding-top: 7px;
+    margin-top: -32px;
+}
+.blmashle a{
+    color: white;
+    text-decoration: none;
+}
+.blmashle:hover{
+    font-size: 15px;
+    padding-top: 5px;
+}
+.fable{
+    position: relative;
+    height: 50%;
+    width: 25%;
+    float: left;
+}
+.imfable{
+    display: block;
+    margin: auto;
+    height: 85%;
+    width: 72%;
+    z-index: 1;
+    margin-top: 17px;
+}
+img[src="fable.jpg"]{
+    height: 100%;
+    width: 100%;
+}
+.fable:hover img{
+    transform: scale(1.02);
+}
+.blfable{
+    display: block;
+    margin: auto;
+    background-color: #28282B;
+    height: 17%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    z-index: 3;
+    opacity: 0.8;
+    padding-top: 7px;
+    margin-top: -32px;
+}
+.blfable a{
+    color: white;
+    text-decoration: none;
+}
+.blfable:hover{
+    font-size: 15px;
+    padding-top: 5px;
+}
+.seemore{
+    position: relative;
+    height: 50%;
+    width: 25%;
+    float: left;
+    font-size: 19px;
+    padding-top: 90px;
+    padding-left: 5px;
+}
+.seemore a{
+    color: green;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.barre{
+    height: 15%;
+    width: 75%;
+    border: solid;
+    border-color: #AA0000;
+    background-color: white;
+    margin: auto;
+    margin-top: 15px;
+}
+.quote{
+    height: 40%;
+    width: 100%;
+    background-color: #AA0000;
+    padding-left: 12px;
+    font-size: xx-large;
+    color: white;
+}
+.erwin{
+    height: 60%;
+    width: 100%;
+    padding-top: 10px;
+    font-size: 23px;
+}
+p{
+    text-align: center;
+}
+.end{
+    height: 35%;
+    width: 100%;  
+    float: left;
+}
+.aboutus{
+    height: 100%;
+    width: 50%;  
+    background-color: white;
+    border: solid;
+    border-color: #AA0000;
+    margin: auto;
+    margin-top: 30px;
+}
+.about{
+    height: 15%;
+    width: 100%;
+    background-color: #AA0000;
+    font-size: xx-large;
+    color: white;
+    padding-left: 15px; 
+}
+.us{
+    height: 85%;
+    width: 100%;
+    padding-top: 24px; 
+}
+img[src="japan.jpg"]{
+    display: block;
+    height: 85%;
+    width: 70%; 
+    margin: auto;
+}
+footer{
+    height: 3%;
+    width: 100%;
+    background-color: #28282B;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+}
+@media screen and (min-width: 515px) and (max-width: 629px){
+body{
+    height: 250vh;
+}
+header{
+    height: 14%;
+    width: 100%;
+    background-color: #28282B;
+    position: fixed;
+    z-index: 5;
+}
+.lisr{
+    height: 100%;
+    width: 35%;
+    float: left;
+}
+.logo{
+    display: none;
+    height: 100%;
+    width: 33%;
+    float: left;
+}
+img[src="samurai.png"]{
+    display: none;
+    margin: auto;
+    height: 88%;
+    width: 55%;
+    border-radius: 50px;
+    margin-right: 10px;
+    margin-top: 5px;   
+}
+.titre{
+    margin-left: 50px;
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-size: 25px;
+    margin-top: 14px;
+}
+.upper{
+    height: 35%;
+    width: 100%;
+}
+.admin{
+    height: 55%;
+    width: 100%;
+    float: left;
+}
+.adrec{
+    margin: auto;
+    margin-top: 100px;
+    height: 65%;
+    width: 90%;
+    border: solid;
+    border-color: #AA0000;
+}
+.rec{
+    height: 15%;
+    width: 100%;
+    float: left;
+    background-color: #AA0000;
+    font-size: x-large;
+    color: white;
+    padding-left: 5px;
+}
+.sugg{
+    height: 85%;
+    width: 100%;
+    float: left;
+    background-color: white;
+}
+.paradise{
+    height: 100%;
+    width: 30%;
+    float: left;
+}
+img[src="paradise.jpg"]{
+    height: 87%;
+    width: 75%;
+    float: left;
+    margin-left: 7px;
+    margin-top: 10px;
+}
+.summary{
+    height: 100%;
+    width: 70%;
+    float: left;
+}
+h5{
+    margin-top: -8px;
+    margin-right: 8px;
+}
+h4{
+    margin-top: -10px;
+}
+.summary a{
+    text-decoration: none;
+}
+.pic{
+    height: 45%;
+    width: 100%;
+    float: left;
+}
+.cherry{
+    display: block;
+    height: 85%;
+    width: 90%;
+    margin: auto;
+    margin-left: 5%;
+    margin-top: 12px;
+}
+h2{
+    margin-top: 5px;
+}
+img[src="cherry.jpg"]{
+    height: 100%;
+    width: 100%;
+}
+.middle{
+    height: 55%;
+    width: 100%;  
+    float: left;
+}
+.hot{
+    height: 60%;
+    width: 90%;  
+    background-color: white;
+    border: solid;
+    border-color: #AA0000;
+    margin: auto;
+}
+.pop{
+    height: 9%;
+    width: 100%;
+    background-color: #AA0000;
+    font-size: xx-large;
+    color: white;
+    padding-left: 15px;  
+}
+.mangas{
+    height: 91%;
+    width: 100%;
+    display: inline-block;
+    justify-content: space-around;
+}
+.sakamoto{
+    position: relative;
+    height: 50%;
+    width: 25%;
+    float: left;
+}
+.imsakamoto{
+    display: block;
+    margin: auto;
+    height: 85%;
+    width: 80%;
+    z-index: 1;
+    margin-top: 10px;
+}
+img[src="sakamoto.jpg"]{
+    height: 100%;
+    width: 100%;
+}
+.sakamoto:hover img{
+    transform: scale(1.02);
+}
+.blsakamoto{
+    display: block;
+    margin: auto;
+    background-color: #28282B;
+    height: 17%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    z-index: 3;
+    opacity: 0.8;
+    padding-top: 7px;
+    margin-top: -32px;
+}
+.blsakamoto a{
+    color: white;
+    text-decoration: none;
+}
+.blsakamoto:hover{
+    font-size: 15px;
+    padding-top: 5px;
+}
+.jjk{
+    position: relative;
+    height: 50%;
+    width: 25%;
+    float: left;
+}
+.imjjk{
+    display: block;
+    margin: auto;
+    height: 85%;
+    width: 80%;
+    z-index: 1;
+    margin-top: 10px;
+}
+img[src="jjk.jpg"]{
+    height: 100%;
+    width: 100%;
+}
+.jjk:hover img{
+    transform: scale(1.02);
+}
+.bljjk{
+    display: block;
+    margin: auto;
+    background-color: #28282B;
+    height: 17%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    z-index: 3;
+    opacity: 0.8;
+    padding-top: 7px;
+    margin-top: -32px;
+}
+.bljjk a{
+    color: white;
+    text-decoration: none;
+}
+.bljjk:hover{
+    font-size: 15px;
+    padding-top: 5px;
+}
+.haikyuu{
+    position: relative;
+    height: 50%;
+    width: 25%;
+    float: left;
+}
+.imhaikyuu{
+    display: block;
+    margin: auto;
+    height: 85%;
+    width: 80%;
+    z-index: 1;
+    margin-top: 10px;
+}
+img[src="haikyuu.jpg"]{
+    height: 100%;
+    width: 100%;
+}
+.haikyuu:hover img{
+    transform: scale(1.02);
+}
+.blhaikyuu{
+    display: block;
+    margin: auto;
+    background-color: #28282B;
+    height: 17%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    z-index: 3;
+    opacity: 0.8;
+    padding-top: 7px;
+    margin-top: -32px;
+}
+.blhaikyuu a{
+    color: white;
+    text-decoration: none;
+}
+.blhaikyuu:hover{
+    font-size: 15px;
+    padding-top: 5px;
+}
+.slamdunk{
+    position: relative;
+    height: 50%;
+    width: 25%;
+    float: left;
+}
+.imslamdunk{
+    display: block;
+    margin: auto;
+    height: 85%;
+    width: 80%;
+    z-index: 1;
+    margin-top: 10px;
+}
+img[src="slamdunk.jpg"]{
+    height: 100%;
+    width: 100%;
+}
+.slamdunk:hover img{
+    transform: scale(1.02);
+}
+.blslamdunk{
+    display: block;
+    margin: auto;
+    background-color: #28282B;
+    height: 17%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    z-index: 3;
+    opacity: 0.8;
+    padding-top: 7px;
+    margin-top: -32px;
+}
+.blslamdunk a{
+    color: white;
+    text-decoration: none;
+}
+.blslamdunk:hover{
+    font-size: 15px;
+    padding-top: 5px;
+}
+.ajin{
+    position: relative;
+    height: 50%;
+    width: 25%;
+    float: left;
+}
+.imajin{
+    display: block;
+    margin: auto;
+    height: 85%;
+    width: 80%;
+    z-index: 1;
+    margin-top: 17px;
+}
+img[src="ajin.jpg"]{
+    height: 100%;
+    width: 100%;
+}
+.ajin:hover img{
+    transform: scale(1.02);
+}
+.blajin{
+    display: block;
+    margin: auto;
+    background-color: #28282B;
+    height: 17%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    z-index: 3;
+    opacity: 0.8;
+    padding-top: 7px;
+    margin-top: -32px;
+}
+.blajin a{
+    color: white;
+    text-decoration: none;
+}
+.blajin:hover{
+    font-size: 15px;
+    padding-top: 5px;
+}
+.mashle{
+    position: relative;
+    height: 50%;
+    width: 25%;
+    float: left;
+}
+.immashle{
+    display: block;
+    margin: auto;
+    height: 85%;
+    width: 80%;
+    z-index: 1;
+    margin-top: 17px;
+}
+img[src="mashle.jpg"]{
+    height: 100%;
+    width: 100%;
+}
+.mashle:hover img{
+    transform: scale(1.02);
+}
+.blmashle{
+    display: block;
+    margin: auto;
+    background-color: #28282B;
+    height: 17%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    z-index: 3;
+    opacity: 0.8;
+    padding-top: 7px;
+    margin-top: -32px;
+}
+.blmashle a{
+    color: white;
+    text-decoration: none;
+}
+.blmashle:hover{
+    font-size: 15px;
+    padding-top: 5px;
+}
+.fable{
+    position: relative;
+    height: 50%;
+    width: 25%;
+    float: left;
+}
+.imfable{
+    display: block;
+    margin: auto;
+    height: 85%;
+    width: 80%;
+    z-index: 1;
+    margin-top: 17px;
+}
+img[src="fable.jpg"]{
+    height: 100%;
+    width: 100%;
+}
+.fable:hover img{
+    transform: scale(1.02);
+}
+.blfable{
+    display: block;
+    margin: auto;
+    background-color: #28282B;
+    height: 17%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    z-index: 3;
+    opacity: 0.8;
+    padding-top: 7px;
+    margin-top: -32px;
+}
+.blfable a{
+    color: white;
+    text-decoration: none;
+}
+.blfable:hover{
+    font-size: 15px;
+    padding-top: 5px;
+}
+.seemore{
+    position: relative;
+    height: 50%;
+    width: 25%;
+    float: left;
+    font-size: 19px;
+    padding-top: 90px;
+    padding-left: 4px;
+}
+.seemore a{
+    color: green;
+    text-decoration: none;
+    margin-left: 2px;
+}
+.barre{
+    height: 15%;
+    width: 75%;
+    border: solid;
+    border-color: #AA0000;
+    background-color: white;
+    margin: auto;
+    margin-top: 15px;
+}
+.quote{
+    height: 40%;
+    width: 100%;
+    background-color: #AA0000;
+    padding-left: 12px;
+    font-size: xx-large;
+    color: white;
+}
+.erwin{
+    height: 60%;
+    width: 100%;
+    padding-top: 10px;
+    font-size: 23px;
+}
+p{
+    text-align: center;
+}
+.end{
+    height: 35%;
+    width: 100%;  
+    float: left;
+}
+.aboutus{
+    height: 100%;
+    width: 50%;  
+    background-color: white;
+    border: solid;
+    border-color: #AA0000;
+    margin: auto;
+    margin-top: 30px;
+}
+.about{
+    height: 15%;
+    width: 100%;
+    background-color: #AA0000;
+    font-size: xx-large;
+    color: white;
+    padding-left: 15px; 
+}
+.us{
+    height: 85%;
+    width: 100%;
+    padding-top: 24px; 
+}
+img[src="japan.jpg"]{
+    display: block;
+    height: 85%;
+    width: 70%; 
+    margin: auto;
+}
+footer{
+    height: 3%;
+    width: 100%;
+    background-color: #28282B;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+}
+@media screen and (min-width: 480px) and (max-width: 514px){
+body{
+    height: 250vh;
+}
+header{
+    height: 14%;
+    width: 100%;
+    background-color: #28282B;
+    position: fixed;
+    z-index: 5;
+}
+.lisr{
+    height: 100%;
+    width: 35%;
+    float: left;
+}
+.logo{
+    display: none;
+    height: 100%;
+    width: 33%;
+    float: left;
+}
+img[src="samurai.png"]{
+    display: none;
+    margin: auto;
+    height: 88%;
+    width: 55%;
+    border-radius: 50px;
+    margin-right: 10px;
+    margin-top: 5px;   
+}
+.titre{
+    margin-left: 50px;
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-size: 22px;
+    margin-top: 14px;
+}
+.upper{
+    height: 35%;
+    width: 100%;
+}
+.admin{
+    height: 55%;
+    width: 100%;
+    float: left;
+}
+.adrec{
+    margin: auto;
+    margin-top: 100px;
+    height: 65%;
+    width: 90%;
+    border: solid;
+    border-color: #AA0000;
+}
+.rec{
+    height: 15%;
+    width: 100%;
+    float: left;
+    background-color: #AA0000;
+    font-size: x-large;
+    color: white;
+    padding-left: 5px;
+}
+.sugg{
+    height: 85%;
+    width: 100%;
+    float: left;
+    background-color: white;
+}
+.paradise{
+    height: 100%;
+    width: 30%;
+    float: left;
+}
+img[src="paradise.jpg"]{
+    height: 87%;
+    width: 75%;
+    float: left;
+    margin-left: 7px;
+    margin-top: 10px;
+}
+.summary{
+    height: 100%;
+    width: 70%;
+    float: left;
+}
+h5{
+    margin-top: -8px;
+    margin-right: 8px;
+}
+h4{
+    margin-top: -10px;
+}
+.summary a{
+    text-decoration: none;
+}
+.pic{
+    height: 45%;
+    width: 100%;
+    float: left;
+}
+.cherry{
+    display: block;
+    height: 85%;
+    width: 90%;
+    margin: auto;
+    margin-left: 5%;
+    margin-top: 12px;
+}
+h2{
+    margin-top: 5px;
+}
+img[src="cherry.jpg"]{
+    height: 100%;
+    width: 100%;
+}
+.middle{
+    height: 55%;
+    width: 100%;  
+    float: left;
+}
+.hot{
+    height: 60%;
+    width: 90%;  
+    background-color: white;
+    border: solid;
+    border-color: #AA0000;
+    margin: auto;
+}
+.pop{
+    height: 9%;
+    width: 100%;
+    background-color: #AA0000;
+    font-size: xx-large;
+    color: white;
+    padding-left: 15px;  
+}
+.mangas{
+    height: 91%;
+    width: 100%;
+    display: inline-block;
+    justify-content: space-around;
+}
+.sakamoto{
+    position: relative;
+    height: 50%;
+    width: 25%;
+    float: left;
+}
+.imsakamoto{
+    display: block;
+    margin: auto;
+    height: 85%;
+    width: 85%;
+    z-index: 1;
+    margin-top: 10px;
+}
+img[src="sakamoto.jpg"]{
+    height: 100%;
+    width: 100%;
+}
+.sakamoto:hover img{
+    transform: scale(1.02);
+}
+.blsakamoto{
+    display: block;
+    margin: auto;
+    background-color: #28282B;
+    height: 17%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    z-index: 3;
+    opacity: 0.8;
+    padding-top: 7px;
+    margin-top: -32px;
+}
+.blsakamoto a{
+    color: white;
+    text-decoration: none;
+}
+.blsakamoto:hover{
+    font-size: 14px;
+    padding-top: 7px;
+}
+.jjk{
+    position: relative;
+    height: 50%;
+    width: 25%;
+    float: left;
+}
+.imjjk{
+    display: block;
+    margin: auto;
+    height: 85%;
+    width: 85%;
+    z-index: 1;
+    margin-top: 10px;
+}
+img[src="jjk.jpg"]{
+    height: 100%;
+    width: 100%;
+}
+.jjk:hover img{
+    transform: scale(1.02);
+}
+.bljjk{
+    display: block;
+    margin: auto;
+    background-color: #28282B;
+    height: 17%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    z-index: 3;
+    opacity: 0.8;
+    padding-top: 7px;
+    margin-top: -32px;
+}
+.bljjk a{
+    color: white;
+    text-decoration: none;
+}
+.bljjk:hover{
+    font-size: 14px;
+    padding-top: 7px;
+}
+.haikyuu{
+    position: relative;
+    height: 50%;
+    width: 25%;
+    float: left;
+}
+.imhaikyuu{
+    display: block;
+    margin: auto;
+    height: 85%;
+    width: 85%;
+    z-index: 1;
+    margin-top: 10px;
+}
+img[src="haikyuu.jpg"]{
+    height: 100%;
+    width: 100%;
+}
+.haikyuu:hover img{
+    transform: scale(1.02);
+}
+.blhaikyuu{
+    display: block;
+    margin: auto;
+    background-color: #28282B;
+    height: 17%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    z-index: 3;
+    opacity: 0.8;
+    padding-top: 7px;
+    margin-top: -32px;
+}
+.blhaikyuu a{
+    color: white;
+    text-decoration: none;
+}
+.blhaikyuu:hover{
+    font-size: 14px;
+    padding-top: 7px;
+}
+.slamdunk{
+    position: relative;
+    height: 50%;
+    width: 25%;
+    float: left;
+}
+.imslamdunk{
+    display: block;
+    margin: auto;
+    height: 85%;
+    width: 85%;
+    z-index: 1;
+    margin-top: 10px;
+}
+img[src="slamdunk.jpg"]{
+    height: 100%;
+    width: 100%;
+}
+.slamdunk:hover img{
+    transform: scale(1.02);
+}
+.blslamdunk{
+    display: block;
+    margin: auto;
+    background-color: #28282B;
+    height: 17%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    z-index: 3;
+    opacity: 0.8;
+    padding-top: 7px;
+    margin-top: -32px;
+}
+.blslamdunk a{
+    color: white;
+    text-decoration: none;
+}
+.blslamdunk:hover{
+    font-size: 14px;
+    padding-top: 7px;
+}
+.ajin{
+    position: relative;
+    height: 50%;
+    width: 25%;
+    float: left;
+}
+.imajin{
+    display: block;
+    margin: auto;
+    height: 85%;
+    width: 85%;
+    z-index: 1;
+    margin-top: 17px;
+}
+img[src="ajin.jpg"]{
+    height: 100%;
+    width: 100%;
+}
+.ajin:hover img{
+    transform: scale(1.02);
+}
+.blajin{
+    display: block;
+    margin: auto;
+    background-color: #28282B;
+    height: 17%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    z-index: 3;
+    opacity: 0.8;
+    padding-top: 7px;
+    margin-top: -32px;
+}
+.blajin a{
+    color: white;
+    text-decoration: none;
+}
+.blajin:hover{
+    font-size: 14px;
+    padding-top: 7px;
+}
+.mashle{
+    position: relative;
+    height: 50%;
+    width: 25%;
+    float: left;
+}
+.immashle{
+    display: block;
+    margin: auto;
+    height: 85%;
+    width: 85%;
+    z-index: 1;
+    margin-top: 17px;
+}
+img[src="mashle.jpg"]{
+    height: 100%;
+    width: 100%;
+}
+.mashle:hover img{
+    transform: scale(1.02);
+}
+.blmashle{
+    display: block;
+    margin: auto;
+    background-color: #28282B;
+    height: 17%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    z-index: 3;
+    opacity: 0.8;
+    padding-top: 7px;
+    margin-top: -32px;
+}
+.blmashle a{
+    color: white;
+    text-decoration: none;
+}
+.blmashle:hover{
+    font-size: 14px;
+    padding-top: 7px;
+}
+.fable{
+    position: relative;
+    height: 50%;
+    width: 25%;
+    float: left;
+}
+.imfable{
+    display: block;
+    margin: auto;
+    height: 85%;
+    width: 85%;
+    z-index: 1;
+    margin-top: 17px;
+}
+img[src="fable.jpg"]{
+    height: 100%;
+    width: 100%;
+}
+.fable:hover img{
+    transform: scale(1.02);
+}
+.blfable{
+    display: block;
+    margin: auto;
+    background-color: #28282B;
+    height: 17%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    z-index: 3;
+    opacity: 0.8;
+    padding-top: 7px;
+    margin-top: -32px;
+}
+.blfable a{
+    color: white;
+    text-decoration: none;
+}
+.blfable:hover{
+    font-size: 14px;
+    padding-top: 7px;
+}
+.seemore{
+    position: relative;
+    height: 50%;
+    width: 25%;
+    float: left;
+    font-size: 19px;
+    padding-top: 90px;
+    padding-left: 4px;
+}
+.seemore a{
+    color: green;
+    text-decoration: none;
+    margin-left: 2px;
+}
+.barre{
+    height: 15%;
+    width: 75%;
+    border: solid;
+    border-color: #AA0000;
+    background-color: white;
+    margin: auto;
+    margin-top: 15px;
+}
+.quote{
+    height: 40%;
+    width: 100%;
+    background-color: #AA0000;
+    padding-left: 12px;
+    font-size: xx-large;
+    color: white;
+}
+.erwin{
+    height: 60%;
+    width: 100%;
+    padding-top: 10px;
+    font-size: 23px;
+}
+p{
+    text-align: center;
+}
+.end{
+    height: 35%;
+    width: 100%;  
+    float: left;
+}
+.aboutus{
+    height: 100%;
+    width: 50%;  
+    background-color: white;
+    border: solid;
+    border-color: #AA0000;
+    margin: auto;
+    margin-top: 30px;
+}
+.about{
+    height: 15%;
+    width: 100%;
+    background-color: #AA0000;
+    font-size: xx-large;
+    color: white;
+    padding-left: 15px; 
+}
+.us{
+    height: 85%;
+    width: 100%;
+    padding-top: 24px; 
+}
+img[src="japan.jpg"]{
+    display: block;
+    height: 85%;
+    width: 70%; 
+    margin: auto;
+}
+footer{
+    height: 3%;
+    width: 100%;
+    background-color: #28282B;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+}
